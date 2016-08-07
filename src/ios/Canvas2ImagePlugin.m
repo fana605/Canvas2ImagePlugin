@@ -48,8 +48,8 @@
     NSString * path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     NSString *temp = @"ImageFile-";
     NSString *ImageName = [temp stringByAppendingFormat:@"%@",dateString];
-    NSString *extension = @"png";
-    extension = [command.arguments objectAtIndex:1];
+    NSString *extension = @"jpg";
+    //extension = [command.arguments objectAtIndex:1];
     CGFloat quality = 1.0;
     quality = [[command.arguments objectAtIndex:2] floatValue] / 100;
     
