@@ -22,7 +22,8 @@
         }
         else {
             var canvas = (typeof canvasId === "string") ? document.getElementById(canvasId) : canvasId;
-            var imageData = canvas.toDataURL().replace(/data:image\/png;base64,/,'');
+            //var imageData = canvas.toDataURL().replace(/data:image\/png;base64,/,'');
+            var imageData = canvas.toDataURL("image/jpeg", 1.0).replace(/data:image\/jpeg;base64,/,'');
             var extension='.png';
             var destQuality=100;
             if (fileExtension) extension=fileExtension.toLowerCase();
