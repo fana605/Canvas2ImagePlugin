@@ -1,0 +1,21 @@
+
+{
+  "name": "canvas-2-image-plugin",
+  "version": "0.0.1",
+  "description": "PhoneGap / Cordova plugin for iOS to save the contents of an HTML canvas to the device's Photo Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fana605/Canvas2ImagePlugin.git"
+  },
+  "keywords": [
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/fana605/Canvas2ImagePlugin/issues"
+  },
+  "homepage": "https://github.com/fana605/Canvas2ImagePlugin"
+}
